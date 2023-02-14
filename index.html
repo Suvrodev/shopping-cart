@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <!-- Font Awesome Link start -->
+    <script src="https://kit.fontawesome.com/c94050bf12.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome Link end -->
+
+    <!-- CSS Link Start -->
+    <link rel="stylesheet" href="Style/indexStyle.css">
+    <!-- CSS Link End -->
+
+    <!-- Icon Link start -->
+    <link rel="shortcut icon" href="MyAssets/ICO/My_Icon.ico" type="image/x-icon">
+    <!-- Icon Link end -->
+</head>
+<body>
+
+    <!-- Header Start -->
+    <header class="header">
+        <h2 class="Start">My Shopping Cart</h2>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main start -->
+    <main class="main">
+        <!-- MainContainer start -->
+        <div class="MainContainer">
+            <div class="AllItem">
+                
+                <!-- Item-1 start -->
+                <div class="ItemConatiner">
+                    <div class="Left">
+                        <img class="phoneimage" src="Assets/images/product-1.png" alt="">
+                        <h2 class="phoneName">iPhone 11 128GB Black</h2>
+                    </div>
+                    <div class="Right">
+                        <i class="fa-solid fa-minus" id="phn_minus_btn"></i>
+                        <input type="number" name="" id="phn_item_input" value="1" min="0" max="10" class="inputnumber">
+                        <i class="fa-solid fa-plus" id="phn_plush_btn"></i>
+                        <p class="price">$ <span class="rate" id="phn_price">1219</span></p>
+                        <i class="fa-solid fa-xmark RED"></i>
+                    </div>
+                </div>
+                <!-- Item-1 end -->
+
+                <!-- Item-2 start -->
+                <div class="ItemConatiner">
+                    <div class="Left">
+                        <img class="phoneimage" src="Assets/images/product-2.png" alt="">
+                        <h2 class="phoneName">iPhone 11 Silicone Case- Black</h2>
+                    </div>
+                    <div class="Right">
+                        <i class="fa-solid fa-minus" id="case_minus_btn"></i>
+                        <input type="number" name="" id="case_item_input" value="1" min="0" max="10" class="inputnumber">
+                        <i class="fa-solid fa-plus" id="case_plush_btn"></i>
+                        <p class="price">$ <span class="rate" id="cse_price">59</span></p>
+                        <i class="fa-solid fa-xmark RED"></i>
+                    </div>
+                </div>
+                <!-- Item-2 end -->
+
+                <!-- Item-3 start -->
+                <div class="ItemConatiner">
+                    <div class="Left_">
+                        <h3>Subtotal:</h3>
+                        <h3>Tax:</h3>
+                        <h3>Total: </h3>
+
+                    </div>
+                    <div class="Right_">
+                        <div class="subtotal bld">$ <span id="subtotalid">1278</span></div>
+                        <div class="tax bld">$ <span id="taxid">0</span></div>
+                        <div class="total bld">$ <span id="totalid">1279.278</span></div>
+                    </div>
+                </div>
+                <!-- Item-3 end --> 
+
+                <div class="checkoutbtn">
+                    <button class="btn">Check Out</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- MainContainer end -->
+    </main>
+    <!-- Main end -->
+    
+
+    <!-- Java Script Link start -->
+    <script src="JS/indexdev.js"></script>
+    <!-- Java Script Link end -->
+</body>
+</html>

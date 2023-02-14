@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Start{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 7px 5px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 15px 15px 25px black;
+}
+.phoneimage{
+    width: 130px;
+}
+.RED{
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+}
+.bld{
+    font-weight: 700;
+}
+
+/* Main Container start */
+.AllItem{
+    background-color: rgb(183, 189, 192);
+    overflow: hidden;
+    width: 70%;
+    margin: 20px auto;
+    padding: 30px 60px ;
+    
+}
+.ItemConatiner{
+    background-color: white;
+    margin: 20px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.Left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 50%;
+}
+.Right{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.inputnumber{
+    width: 35px;
+    height: 25px;
+    background-color: rgb(183, 189, 192);
+    border: 0;
+    outline: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 2px 5px;
+}
+.inputnumber:hover{
+    outline: 2px solid skyblue;
+}
+.price{
+    font-weight: 700;
+}
+.checkoutbtn{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+.btn{
+    background-color: #157347;
+    color: white;
+    padding: 12px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+/* Main Container end */
